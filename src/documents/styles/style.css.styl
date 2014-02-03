@@ -1,0 +1,42 @@
+@import 'animations'
+@import 'colors'
+
+a, a:link
+  cursor pointer
+
+body
+  background white
+  font-family 'Open-Sans', sans-serif
+
+table
+  tfoot, tbody
+    th
+      border-top 1px solid #DDD
+a
+  color nephritis
+
+footer
+  padding-bottom 30px
+  text-align center
+
+// Navbar
+header.navbar
+  font-weight 600
+  margin-bottom 0
+  .navbar-brand
+    font-weight 600
+    font-size 24px
+    &:hover
+      color nephritis
+  li
+    a.active, a:focus, a:hover
+      background-color #F9F9F9
+      color nephritis
+
+.welcome
+  padding-top 80px
+  padding-bottom 80px
+
+@import 'breakpoints'
+
+
